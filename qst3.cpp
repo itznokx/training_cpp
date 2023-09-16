@@ -14,9 +14,11 @@ string convertToFar (float c){
 }
 
 int main (void){
-	float temp;
-	cout << "Digite a temperatura: " << endl;
-	cin >> temp;
-	cout << convertToFar(temp);
+	for (int i =0;i<25;i++){
+		float temp;
+		cout << "Digite a temperatura: " << endl;
+		cin >> temp;
+		cout << convertToFar(temp);
+	}
 	return 0;
 }
